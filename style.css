@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* section header top */
+section.section-top{
+    position: relative;
+    background: #3c3b3a;
+}
+section.section-top .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+section.section-top .container .head{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+}
+section.section-top .container .head .logo{
+    flex-basis: 5%;
+    position: relative;
+}
+section.section-top .container .head .logo img{
+    width: 100%;
+}
+section.section-top .container .head .menu{
+    flex-basis: 95%;
+}
+section.section-top .container .head .menu nav{
+    position: relative;
+}
+section.section-top .container .head .menu nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+section.section-top .container .head .menu nav ul li{
+    margin: 0 20px;
+}
+section.section-top .container .head .menu nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #f2f2f2;
+}
+section.section-top .container .head .menu nav ul li:nth-child(1) a{
+    font-weight: 600;
+}
+/* section Discover */
+section.discover {
+    position: relative;
+    padding: 50px 0;
+}
+section.discover .container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section.discover .container .discover{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.discover .container .discover .text{
+    flex-basis: 40%;
+    position: relative;
+}
+section.discover .container .discover .text h3{
+    font-size: 5.5em;
+    color: #3c3b3a;
+}
+section.discover .container .discover .text p{
+    font-size: 24px;
+    color: #3c3b3a;
+    display: inline-block;
+    padding: 30px 0;
+}
+section.discover .container .discover .text ul{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+}
+section.discover .container .discover .text ul li{
+    flex-basis: 20%;
+    list-style: none;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+}
+section.discover .container .discover .text ul li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #3c3b3a;
+}
+section.discover .container .discover .text ul li i{
+    font-size: 32px;
+}
+section.discover .container .discover .text .start{
+    margin-top: 50px;
+}
+section.discover .container .discover .text .start a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    color: #f2f2f2;
+    font-weight: 600;
+    background: #26a682;
+    padding: 10px 40px;
+    border-radius: 50px;
+    box-shadow: 1px 10px 15px #969492;
+}
+section.discover .container .discover .text .start a:hover{
+    opacity: 0.8;
+}
+section.discover .container .discover .text ul li p{
+    padding: 0;
+    font-size: 16px;
+    color: #26a682;
+    font-weight: 600;
+    padding-top: 5px;
+}
+section.discover .container .discover .img{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+}
+section.discover .container .discover .img img{
+    width: 80%;
+}
+section.discover .container .scroll{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+section.discover .container .scroll img{
+    transform:rotate(180deg);
+    cursor: pointer;
+}
+/* section discover two */
+section.discover-two{
+    position: relative;
+    background: #f2f2f2;
+    padding: 50px 0;
+}
+section.discover-two .container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section.discover-two .container .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.discover-two .container .content .img{
+    flex-basis: 50%;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+section.discover-two .container .content .img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+section.discover-two .container .content .text{
+    flex-basis: 50%;
+    padding: 0 20px;
+    position: relative;
+}
+section.discover-two .container .content .text h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #3c3b3a;
+}
+section.discover-two .container .content .text h4{
+    font-size: 24px;
+    color: #26a682;
+    font-weight: 400;
+    padding: 10px 0;
+}
+section.discover-two .container .content .text p{
+    font-size: 16px;
+    color: #3c3b3a;
+    font-weight: 400;
+    line-height: 32px;
+}
+section.discover-two .container .content .text .learn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+section.discover-two .container .content .text .learn a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    color: #f2f2f2;
+    font-weight: 600;
+    background: #26a682;
+    padding: 10px 40px;
+    border-radius: 50px;
+    box-shadow: 1px 10px 15px #969492;
+}
+section.discover-two .container .content .text .learn a:hover{
+    opacity: 0.8;
+}
+/* section image-box */
+section.image{
+    position: relative;
+    background: #3c3b3a;
+    padding: 20px 0;
+}
+section.image .container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section.image .container .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+section.image .container .content .image-box{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section.image .container .content .image-box .image{
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #f2f2f2;
+}
+section.image .container .content .image-box .image img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section.image .container .content .image-box .text {
+    padding:  0 50px;
+}
+section.image .container .content .image-box .text p{
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: 400;
+}
+section.image .container .content .image-box .text p:nth-child(2){
+    font-weight: 600;
+}
+section.image .container .content .text-box{
+    flex-basis: 60%;
+}
+section.image .container .content .text-box p {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* section entertainment */
+section.entertainment{
+    position: relative;
+    padding: 50px 0;
+}
+section.entertainment .container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+section.entertainment .container .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.entertainment .container .content .text{
+    flex-basis: calc(50% - 50px);
+    position: relative;
+    margin-right: 50px;
+}
+section.entertainment .container .content .text h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #3c3b3a;
+}
+section.entertainment .container .content .text h4{
+    font-size: 24px;
+    color: rgb(38, 166, 130);
+    font-weight: 400;
+    padding: 10px 0px;
+}
+section.entertainment .container .content .text p{
+    font-size: 16px;
+    color: #3c3b3a;
+    font-weight: 400;
+    line-height: 32px;
+}
+section.entertainment .container .content .text .button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  
+}
+section.entertainment .container .content .text .button  a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    color: #f2f2f2;
+    font-weight: 600;
+    background: #26a682;
+    padding: 10px 40px;
+    border-radius: 50px;
+    box-shadow: 1px 10px 15px #969492;
+}
+section.entertainment .container .content .text .button  a:hover{
+    opacity: 0.8;
+}
+section.entertainment .container .content .image{
+    flex-basis: 50%;
+    height: 300px;
+    position: relative;
+}
+section.entertainment .container .content .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+/* footer */
+section.footer {
+    position: relative;
+    background-color: #3c3b3a;
+    padding: 20px 0;
+}
+section.footer.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section.footer .container .content{
+    width: 100%;
+    text-align: center;
+}
+section.footer .container .content p{
+    color: #f2f2f2;
+    font-size: 24px;
+    line-height: 36px;
+}
+section.footer .container .content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.footer .container .content ul li{
+    list-style: none;
+    margin: 0 5px;
+}
+section.footer .container .content ul li a{
+   text-decoration: none;
+}
+section.footer .container .content ul li a:hover{
+    opacity: 0.8;
+}
+/*  */
+section.footer .scroll-top {
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    text-align: center;
+}
+section.footer .scroll-top p{
+    color: #f2f2f2;
+}
+section.footer .scroll-top a{
+    color: #fff;
+}
+@media only screen and (max-width:1400px){
+    .container{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width:991px){
+    section.section-top .container {
+        padding:20px;
+    }
+    section.section-top .container .head .logo img{
+        width: 100%;
+    }
+    section.section-top .container .head .logo{
+        flex-basis: 10%;
+    }
+    section.section-top .container .head .menu{
+        flex-basis: 90%;
+    }
+    section.discover .container{
+        padding: 0 20px;
+    }
+    section.discover .container .discover .text{
+        flex-basis: 100%;
+    }
+    section.discover .container .discover .text h3{
+        font-size: 4.5em;
+    }
+    section.discover .container .discover .img{
+        flex-basis: 100%;
+        padding-top: 50px;
+    }
+    section.discover .container .discover .text ul{
+        flex-wrap: wrap;
+    }
+    section.discover .container .discover .text ul li p{
+        font-size: 14px;
+    }
+    section.discover .container .discover .text .start {
+        text-align: center;
+    }
+    section.discover-two .container .content .img{
+        height: 200px;
+        flex-basis: 100%;
+    }
+    section.discover-two .container .content .img img{
+        position: relative;
+    }
+    section.discover-two .container .content .text{
+        padding: 50px 20px 0px 20px;
+        flex-basis: 100%;
+    }
+    section.discover-two .container .content .text .learn{
+        position: relative;
+        padding: 20px 0 0 0;
+        text-align: right;
+    }
+    section.discover-two .container .content .text .learn a{
+        font-size: 24px;
+        padding: 10px 15px;
+    }
+
+    section.image .container{
+        padding: 0 20px;
+    }
+    section.image .container .content .image-box{
+        flex-direction: column;
+        padding: 10px;
+    }
+    section.image .container .content .image-box .text{
+        padding: 20px 0;
+    }
+    section.image .container .content .text-box p{
+        line-height: 30px;
+        padding: 0px 20px;
+    }
+    section.entertainment .container .content .image{
+        height: 200px;
+    }
+    section.entertainment .container .content .image img{
+        position: relative;
+        object-fit: cover;
+    }
+    section.entertainment .container .content{
+        flex-direction: column-reverse;
+    }
+    section.entertainment{
+        padding: 0;
+    }
+    section.entertainment .container .content .text{
+        flex-basis: 100%;
+        margin: 0;
+        padding:20px;
+    }
+    section.entertainment .container .content .text .button{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
+    section.entertainment .container .content .text .button a{
+        position: relative;
+        font-size: 24px;
+        padding: 10px 15px;
+    } 
+    section.footer .scroll-top{
+        font-size: 10px;
+        bottom: 50%;
+        transform: translateY(50%);
+        cursor: pointer;
+    }
+    section.footer .scroll-top a{
+        cursor: pointer;
+    }
+    section.footer .scroll-top img{
+        width: 30%;
+    } 
+}
+/*  */
+@media only screen and (max-width:500px){
+    section.section-top .container {
+        padding:20px;
+    }
+    section.section-top .container .head {
+        flex-direction: column;
+    }
+    section.section-top .container .head .logo{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    section.section-top .container .head .logo img{
+        width: 30%;
+    }
+    section.section-top .container .head .menu{
+        flex-basis: 100%;
+    }
+    section.section-top .container .head .menu nav ul{
+        flex-direction: column;
+    }
+    section.section-top .container .head .menu nav ul li{
+        margin: 20px;
+    }
+    section.discover .container{
+        padding: 0 20px;
+    }
+    section.discover .container .discover .text{
+        flex-basis: 100%;
+    }
+    section.discover .container .discover .text h3{
+        font-size: 3.5em;
+    }
+    section.discover .container .discover .img{
+        flex-basis: 100%;
+        padding-top: 50px;
+    }
+    section.discover .container .discover .text ul{
+        flex-wrap: wrap;
+    }
+    section.discover .container .discover .text ul li{
+        flex-basis: 50%;
+        margin: 20px 0;
+    }
+    section.discover .container .discover .text .start {
+        text-align: center;
+    }
+    section.discover-two .container .content{
+        flex-direction: column;
+    }
+    section.discover-two .container .content .img{
+        height: unset;
+        flex-basis: 100%;
+    }
+    section.discover-two .container .content .img img{
+        position: relative;
+    }
+    section.discover-two .container .content .text{
+        padding: 50px 20px 0px 20px;
+    }
+    section.discover-two .container .content .text .learn{
+        position: relative;
+        padding: 20px 0 0 0;
+        text-align: right;
+    }
+    section.discover-two .container .content .text .learn a{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    section.image .container .content{
+        flex-direction: column;
+    }
+    section.image .container{
+        padding: 0 20px;
+    }
+    section.image .container .content .image-box{
+        flex-direction: column;
+    }
+    section.image .container .content .image-box .text{
+        padding: 20px 0;
+    }
+    section.image .container .content .text-box p{
+        line-height: 32px;
+    }
+    section.entertainment .container .content .image{
+        height: unset;
+    }
+    section.entertainment .container .content .image img{
+        position: relative;
+        object-fit: contain;
+    }
+    section.entertainment .container .content{
+        flex-direction: column-reverse;
+    }
+    section.entertainment{
+        padding: 0;
+    }
+    section.entertainment .container .content .text{
+        flex-basis: 100%;
+        margin: 0;
+        padding:20px;
+    }
+    section.entertainment .container .content .text .button{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
+    section.entertainment .container .content .text .button a{
+        position: relative;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    section.footer .scroll-top{
+        font-size: 10px;
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+    section.footer .scroll-top img{
+        width: 30%;
+    }    
+}
+/*  */
+
